@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useHistory } from "react-router-dom";
 import APIService from "../../services/APIService";
+import './ListingPage.css';
 
 const ListingPage = () => {
     const [items, setItems] = useState([]);
@@ -87,7 +88,7 @@ const ListingPage = () => {
 
 
     return (
-        <div>
+        <div className="container">
             <h1>Universities</h1>
             <div className="search-bar-container">
                 <input className="search-bar" type="text" placeholder="Search" value={searchTerm} onChange={handleSearch} />

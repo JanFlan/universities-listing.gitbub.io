@@ -1,5 +1,6 @@
 import React from 'react';
 import { useLocation } from 'react-router-dom';
+import './DetailsPage.css';
 
 const DetailsPage = () => {
     const location = useLocation();
@@ -24,7 +25,7 @@ const DetailsPage = () => {
     };
 
     return (
-        <div>
+        <div className="container">
             <h1>{renderFieldValue(name)}</h1>
             <p><strong>Country:</strong> {renderFieldValue(country)}</p>
             <p><strong>State/Province:</strong> {renderFieldValue(stateProvince)}</p>
