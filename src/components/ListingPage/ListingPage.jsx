@@ -100,7 +100,7 @@ const ListingPage = () => {
             {errorMessage && <div className="error-message">{errorMessage}</div>}
             <ul>
                 {filteredItems.map((item, index) => (
-                    <li key={item.name} className="list-item">
+                    <li key={`${item.name}-${Math.random()}`} className="list-item">
                         <div onClick={() => handleItemClick(item)} className="item-name">
                             {item.name}
                             <button className="delete-button" onClick={(event) => handleDelete(event, index)}>Delete</button>
