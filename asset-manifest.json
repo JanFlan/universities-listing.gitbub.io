@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/universities-listing.gitbub.io/static/css/main.886a3688.css",
+    "main.js": "/universities-listing.gitbub.io/static/js/main.19ae6e7a.js",
+    "static/js/453.5123052f.chunk.js": "/universities-listing.gitbub.io/static/js/453.5123052f.chunk.js",
+    "index.html": "/universities-listing.gitbub.io/index.html",
+    "main.886a3688.css.map": "/universities-listing.gitbub.io/static/css/main.886a3688.css.map",
+    "main.19ae6e7a.js.map": "/universities-listing.gitbub.io/static/js/main.19ae6e7a.js.map",
+    "453.5123052f.chunk.js.map": "/universities-listing.gitbub.io/static/js/453.5123052f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.886a3688.css",
+    "static/js/main.19ae6e7a.js"
+  ]
+}
