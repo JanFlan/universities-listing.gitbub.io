@@ -1,3 +1,7 @@
+# File Explorer Component
+
+You can check the live build here: https://janflan.github.io/jisr-file-explorer.gitbub.io/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
